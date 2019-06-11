@@ -54,3 +54,64 @@ position: absolute;
 margin-top: -23px;
 margin-left: 3px;
 }
+
+.A {
+  background-color: red;
+  width : 20px;
+  height: 100px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.B{
+  background-color: red;
+  width : 20px;
+  height: 100px;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 100px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.C{
+  background-color: red;
+  height: 20px;
+  width: 80px;
+  position: relative;
+  margin-top: -20px;
+  margin-left: 20px;
+  
+ 
+}
+.D{
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 83px;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 19px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+ 
+}
+.A1{
+  background-color: gray;
+  width: 19px;
+  height: 20px;
+  position: relative;
+  margin-top: -80px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.A2{
+  background-color: gray;
+  width: 18px;
+  height: 20px;
+  position: relative;
+  margin-top: -20px;
+  margin-left: 102px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
