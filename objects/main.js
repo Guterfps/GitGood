@@ -30,7 +30,7 @@ const reservations = {
     ted: { claimed: true }
   }
   
-  const toLowerCase(name) = prompt('Please enter the name for your reservation');
+  const name = prompt('Please enter the name for your reservation').toLowerCase()
 
   
   if(reservations[name] && reservations[name].claimed=== false){
