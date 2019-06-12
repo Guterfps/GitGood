@@ -1,0 +1,25 @@
+
+.a{
+  background-color: brown;
+  width: 500px;
+  height: 248px;
+  position :absolute;
+
+}
+.b{
+  background-color: #66320E;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 60px;
+ border: 2px solid;
+ border-color: black; 
+}
+#h {
+  background-color: black;
+  box-sizing: border-box;
+  float: left;
+  width: 125px;
+  height: 124px;
+  
+}
