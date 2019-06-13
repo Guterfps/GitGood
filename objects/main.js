@@ -41,3 +41,28 @@ const reservations = {
     reservations[name]={claimed : true} 
   }
   console.log(reservations)
+
+  const date = 3
+
+const kitchen = {
+    owner: "Geraldine",
+    hasOven: true, 
+    fridge: {
+        price: 500,
+        works: false, 
+        items: [
+            { name: "cheese", expiryDate: 7 },
+            { name: "raddish", expiryDate: 2 },
+            { name: "bread", expiryDate: 1 }
+        ]
+    }
+}
+if(kitchen.hasOven== true && kitchen.fridge.works== true){
+console.log("Geraldine's raddish expired "+ date-kitchen.fridge.items[1].expiryDate + "day ago. Weird, considering her fridge works. Luckily, she has an oven to cook the raddish in.")
+}else if (kitchen.hasOven== true && kitchen.fridge.works== false){
+console.log("Geraldine's raddish expired "+ date-kitchen.fridge.items[1].expiryDate + " day ago. Probably because her fridge doesn't work. Luckily, she has an oven to cook the raddish in. And she'll have to pay 250 to fix the fridge.")
+} else if(kitchen.hasOven== false && kitchen.fridge.works== true){
+    console.log("Geraldine's raddish expired "+ date-kitchen.fridge.items[1].expiryDate + " day ago. Weird, considering her fridge works. Too bad she doesn't have an oven to cook the raddish in.")
+}else if (kitchen.hasOven== false && kitchen.fridge.works== false){
+    console.log("Geraldine's raddish expired "+ date-kitchen.fridge.items[1].expiryDate + " day ago. Probably because her fridge doesn't work. Too bad she doesn't have an oven to cook the raddish in. And she'll have to pay 250 to fix the fridge.")
+}
